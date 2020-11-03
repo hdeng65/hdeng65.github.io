@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmetics in the 20th Century US</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Playfair Display' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body data-spy="scroll" data-target="#navbarResponsive">
+
+<!--- Start of Landing Page -->
+<div id="landingpage">
+
+    <!--- Navigation-->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#intro">INTRO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#argu1">WAVES OF IDEAL BEAUTY</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#argu2">AWARENESS & IDENTITY</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">ABOUT</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+    <!--- End Navigation --> 
+
+    <div class="landing">
+        <div class="home-wrap">
+            <div class="home-inner">
+            </div>
+        </div>
+    </div>
+
+    <div class="caption text-md-left">
+        <h1>Cosmetics as Politics &
+            <br>
+            Politics of Cosmetics</h1>
+        <p>A Multimedia Experience Based on Kathy Peiss’s Book 
+            <br>
+            <i>Hope in a Jar: The Making of America’s Beauty Culture </i></p>
+    <div class="down-btn">
+        <div class="down-btn-inner"><a href="#intro">
+        <i class="fa fa-angle-down"></i></a>
+        </div>
+    </div>
+
+    
+
+</div>
+<!--- End of Landing Page -->
+
+<!--- Start of Intro Section -->
+<div id="intro" class="offset">
+    <video autoplay muted loop id="myVideo">
+        <source src="videos/intro video.mp4" type="video/mp4">
+
+    </video>
+    <div class="box-bg">
+        <div class="boxcontent">
+        <p>The ideal image of women cosntantly changes across different time and places. 
+            Cosmetics has played a critical role in shaping women’s identity throughout history. 
+        <br> <br> <br>Although nowadays using cometics is sometimes condemned as a source of women’s oppression, 
+        a century ago, it embodied women’s self-expression and emancipation, and the cosmetic industry 
+        opened up opportunities for women to achieve their ambition, build communities and empower other women.
+        <br> <br> <br> By reflecting on the cosmetics history, at times beautiful and at times ugly, 
+        the beauty culture may push forward to more inclusivity, diversity and relevance for a new era.
+        </p>
+        </div>
+    </div>
+    <div class="box-link">
+        <a href="https://www.youtube.com/watch?v=g08-_NExOX0&t=14s">Women’s Makeup Through History
+            <br><i>Full Video</i></a>
+    </div>
+</div>
+<!--- End of Intro Section -->
+
+<!--- Start of Argument One -->
+<div id="argu1" class="offset">
+    <div class="argu1-inner">
+    
+        <div class="argu1description text-md-center">
+            <h1>Waves of Ideal Beauty</h1>
+            <hr size="1" width="25%" color="white"> 
+            <p class="lead">Once scandalous chemicals, cosmetics became 
+                <br>more accepted  with the blooming development 
+                <br>of beauty industry at the start of the 20th 
+                <br>century. Women have been using it to express 
+                <br>themselves and claim their place in the public. </p>
+        
+        </div>
+    </div>
+</div>
+<!--- End of Argument One -->
+
+<!--- Start of Timeline -->
+<div id="timeline" class="offset">
+    <div class="gameinstruction">
+        <h4>PICK ONE PICTURE TO SEE THE BEAUTY STANDARD</h4>
+        <hr size="1" width="48%" color="black">  
+    </div>
+    <div class="filmroll"><img src="images/filmroll.svg" alt="filmroll"></div>
+    <div class="section">
+        
+        <div class="row">
+            <div class="column">
+            <div class="card">
+                <img src="images/18thlady_fullwidth.png" alt="18thcenturylady">
+            </div>
+            </div>
+        
+            <div class="column">
+            <div class="card">
+                <img class="cardTrigger" onclick="myFunction()" src="images/victorian.png" alt="victorianladies">
+                <div class="overlay">
+                    <h3>Victorian Ladies</h3>
+                </div>
+            </div>
+            </div>
+            
+            <div class="column">
+            <div class="card">
+                <img class="cardTrigger" onclick="myFunction2()" src="images/new woman.png" alt="newwoman">
+                <div class="overlay">
+                    <h3>New Women</h3>
+                </div>
+            </div>
+            </div>
+            
+            <div class="column">
+            <div class="card">
+                <img class="cardTrigger" onclick="myFunction3()" src="images/flapper.png" alt="flapper">
+                <div class="overlay">
+                    <h3>Flapper Girls</h3>
+                </div>
+            </div>
+            </div>
+            
+            <div class="column">
+            <div class="card">
+                <img src="images/marilyn.png" alt="filmroll">
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="filmroll2"><img src="images/filmroll.svg" alt="filmroll"></div>
+</div>
+<!--- End of Timeline  -->
+
+<div id="timeline-accordion1">
+    <div class="row accordion-inner">
+        
+        <div class="card1-title">
+            <div class="up-btn">
+                <div class="up-btn-inner" onclick="closeAccordion1()"><a href="#timeline">
+                <i class="fa fa-angle-up"></i></a>
+                </div>
+            </div>
+            <h2>A Pursuit of 
+                <br>“Natural” Pale 
+                <br>Complexion</h2>
+        </div>
+        <div class="card1-description">
+            <p>For 19th-century Americans, the act of beautifying was frowned upon as 
+                it was seen as immoral and unrespectable. The “painted woman” provoked 
+                disgust and censure from the virtuous. Only stage actress and prostitutes, 
+                it was generally agreed, that would enhance their face with artifice. 
+            <br><br></p>
+            <video width="481" height="271" controls autoplay>
+                <source src="videos/Painted lady_1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p style="color: black;"><i>Full video can be found <u><a style="color: black"; href="https://youtu.be/BTOq3CS1U20?t=310">here</a></u>.</i></p>
+            <p><br>
+                <br>
+                <br><br>A lady of a higher social standing would pursue a “natural” pale look as 
+                it would indicate a woman did not have to work outside, and was thus of high status. 
+                They would use accessories like gloves and umbrellas to help protect her from the environment. 
+            <br><br></p>
+            <img src="images/cardagroup1.png" alt="victorianladies-a">
+            <p><br>
+                <br>
+                <br>Many cosmetic products were aimed at achieving as pale a complexion as possible. 
+                Cold cream, vanishing cream, lotion, etc. became a staple in the beauty rituals of 
+                Victorian womten to provide that perfect “natural”  look.  
+            <br><br></p>
+            <img src="images/card1group2.png" alt="victorianladies-b">
+            <br><br><br>
+            <img src="images/card1c.png" alt="victorianladies-c">
+            <p><br>
+                <br>
+                <br>Some substances were also corrosive to the skin because they contained lead, 
+                mercury, and arsenic so women would have to keep applying them to cover the damage.
+            <br><br></p>
+            <img src="images/card1f.png" alt="victorianladies-d">
+            <br><br><br><br><br>
+        </div>
+    </div>
+</div>
+
+<div id="timeline-accordion2">
+    <div class="row accordion-inner">
+        
+        <div class="card1-title">
+            <div class="up-btn">
+                <div class="up-btn-inner" onclick="closeAccordion2()"><a href="#timeline">
+                <i class="fa fa-angle-up"></i></a>
+                </div>
+            </div>
+            <h2>Rejecting the 
+                <br>Victorian 
+                <br>Womanhood</h2>
+        </div>
+        <div class="card1-description">
+            <p>The New Woman image was often positioned in opposition to the Victorian “True Woman”, 
+                which was associated with an understanding of femininity as an essential, timeless 
+                concept that emphasized domesticity and submissiveness.
+                <br><br>“New Woman” went out to the public as professional woman, earnest labor activist, 
+                the free spirited outdoor girl and sexually assertive flapper, etc. The demand for 
+                cosmetics increased and the act of beautifying was associated women’s social life and activity, 
+                and independence from the ways of the past.  
+            </p>
+            <br><br>
+            <img src="images/card2a.png" alt="newwoman-a">
+            <p><br>
+                <br><br>With the impact of WWI, by 1920, more and more women were entering the job market, 
+                taking over the jobs of men who had gone to war. 
+            <br><br></p>
+            <img src="images/card2group1.png" alt="newwoman-b">
+            <p><br>
+                <br>
+                <br>Representations of the political New Woman in the media, whether as a suffragist, 
+                feminist, or social reformer, often portrayed her as masculine, unattractively clothed in bloomers, 
+                and sometimes smoking.   
+            <br><br></p>
+            <img src="images/card2group2.png" alt="newwoman-c">
+            <p><br>
+                <br>
+                <br>Unlike Victorian ladies who constraint themselves at home, New Woman embraced a healthier lifestyle. 
+                They went out for outdoor activity and got tanned.
+            <br><br></p>
+            <img src="images/card2group3.png" alt="newowman-c">
+            <br><br><br><br><br>
+        </div>
+    </div>
+</div>
+
+<div id="timeline-accordion3">
+    <div class="row accordion-inner">
+        
+        <div class="card1-title">
+            <div class="up-btn">
+                <div class="up-btn-inner" onclick="closeAccordion3()"><a href="#timeline">
+                <i class="fa fa-angle-up"></i></a>
+                </div>
+            </div>
+            <h2>Redefining 
+                <br>Femininity</h2>
+        </div>
+        <div class="card1-description">
+            <p>Flappers were the icons of the Roaring Twenties who challenged the traditional 
+                Victorian gender roles by wearing excessive makeup, drinking alcohol, smoking 
+                cigarettes in public, driving automobiles, treating sex in a casual manner.  
+            <br><br></p>
+            <video width="485" height="273" controls autoplay>
+                <source src="videos/Flapper.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p style="color: black;"><i>Full video can be found <u><a style="color: black"; href="https://youtu.be/BTOq3CS1U20?t=1271">here</a></u>.</i></p>
+            <br><br>
+            <p><br><br>Flappers defied convention with their makeup, clothes, hair and dance moves. 
+                They redefined the feminine possible by breaking social norms.
+            <br><br></p>
+            <img src="images/card3group1.png" alt="flapper-a">
+            <br><br><br><br>
+            <img src="images/card3group2.png" alt="flapper-b">
+            <p><br>
+                <br>
+                <br>The Roaring '20s marked a new era of automobile advancements. 
+                Driving afforded women a freedom and mobility they hadn't before experienced. 
+            <br><br></p>
+            <img src="images/card3group3.png" alt="flapper-c">
+            <p><br>
+                <br>
+                <br>Placeholder for adding content about bicycles
+            <br><br></p>
+            <img src="images/card2group3.png" alt="newowman-c">
+            <br><br><br><br><br>
+        </div>
+    </div>
+</div>
+
+<!--- Start of Map -->
+<div id="map" class="offset">
+    <div class="mapinstruction">
+        <h4>CLICK TO SEE THE PERSON'S JOURNEY AND STORY</h4>
+        <hr size="1" width="48%" color="black">  
+    </div>
+    <div class="map-inner">
+    <!----circles and lines-->
+    </div>
+
+    <div class="map-z1">
+        <!----circles and lines-->
+        <div id="inactive-circle-elizabeth" onmouseover="mapFunction1()">
+                </div>
+        <div id="inactive-circle-helena" onmouseover="mapFunction2()">
+            </div>
+        <div id="inactive-circle-maxfactor" onmouseover="mapFunction3()">
+            </div>
+    </div>
+
+
+    <div class="map-z2">
+        <div id="elizabeth-path">
+            <div class="active-circle-elizabeth1">
+            </div>
+            <hr class="elizabeth-route">
+            <div class="active-circle-elizabeth2">
+            </div>
+            <img class="elizabeth-card" src="images/elizabeth-card.png" alt="Elizabeth">
+        </div>
+        
+        <div id="maxfactor-path">
+            <div class="active-circle-maxfactor1">
+            </div>   
+            <hr class="maxfactor-route1">
+            <div class="active-circle-maxfactor2">
+            </div>
+            <hr class="maxfactor-route2"> 
+            <div class="active-circle-maxfactor3">
+            <img class="maxfactor-card" src="images/maxfactor-card.png" alt="Max Factor">
+            </div> 
+        </div>
+
+        <div id="helena-path">
+            <div class="active-circle-helena1">
+            </div>
+            <hr class="helena-route1">
+            <div class="active-circle-helena2">
+            </div>
+            <hr class="helena-route2">
+            <div class="active-circle-elizabeth2">
+            </div>
+            <img class="helena-card" src="images/helena-card.png" alt="Helena">
+        </div>
+    </div>
+
+    <!----modal section-->
+    <div id="modal1">
+        <div class="modal-content">
+            <div id="close">
+                <span class="close" style="color:white;">&times;</span>
+            </div>
+            <div class="modal-bio">
+                <h1>Elizabeth Arden</h1>
+                <p><br>Initially a Canadian immigrant, Arden  
+                    ventured beauty business by opening 
+                    up salons in 1910s and making cosmetics 
+                    approchable and acceptable for society women. 
+
+                    <br><br>Also a suffragette, Arden gave out red 
+                    lipstick during Women’s Rights marches as a 
+                    sign  of solidarity.</p>
+
+                    <br> <a href="https://www.biography.com/business-figure/elizabeth-arden">⊙ <u><i>Elizabeth's Biography</i></u></a>
+                    <br> <a href="https://www.biography.com/business-figure/elizabeth-arden">⊙ <u><i>War Paint The Musical Trailer</i></u></a>
+            </div>
+        </div>    
+    </div>
+
+    <div id="modal2">
+        <div class="modal2-content">
+            <div id="close">
+                <span class="close" style="color:white;">&times;</span>
+            </div>
+            <div class="modal-bio">
+                <h1>Helena Rubinstein</h1>
+                <p><br>To avoid an arranged marriage, Rubinsteam moved from Poland to Australia, where she launched her cosmetic line and later expanded to the US.
+
+                    <br><br>Also as a life-long collector of Art, she created Helena Rubinstein Foundation to fund artists and medical research.</p>
+
+                    <br> <a href="https://www.biography.com/business-figure/helena-rubinstein">⊙ <u><i>Helena's Biography</i></u></a>
+                    <br> <a href="https://www.wbur.org/onpoint/2015/01/21/helena-rubenstein-beauty-history-fashion">⊙ <u><i>"Beauty is Power" (NPR Podcast)</i></u></a>
+            
+            </div>
+        </div>    
+    </div>
+
+    <div id="modal3">
+        <div class="modal3-content">
+            <div id="close">
+                <span class="close" style="color:white;">&times;</span>
+            </div>
+            <div class="modal-bio">
+                <h1>Max 
+                    Factor Sr.</h1>
+                <p><br>Factor built his business by customizing theatrical makeup for actors and actress. 
+
+                    <br><br>Factor marketed a range of cosmetics through how-to tutorials, insisting that every girl could look like a movie star by using Max Factor cosmetics.
+
+                    <br><br> <br> <a href="https://www.britannica.com/biography/Max-Factor">⊙ <u><i>Max Factor's Biography</i></u></a>
+                    <br> <a href="https://www.youtube.com/watch?v=UkruBf4HiCg">⊙ <u><i>Tutorials to Become Hollywood Stars</i></u></a>
+            </div>
+        </div>    
+    </div>
+
+    
+
+
+</div>
+<!--- End of Map -->
+
+
+<!--- Start of Yin Yang -->
+<div id="yinyang" class="offset">
+    <div class="yinyang-inner">
+        <div class="gameinstruction">
+            <h4>CHOOSE ONE SIDE TO SEE THE IMPACTS OF ADS</h4>
+            <hr size="1" width="48%" color="black">  
+        </div>   
+        <div class="flex-container yinyang">
+            <div class="row">
+                <div class="yang">
+                    <img class="yang" onclick="myFunction4()" src="images/yang.svg" alt="yang">
+                </div>
+                <div class="yin">
+                    <img class="yin" onclick="myFunction5()" src="images/yin.svg" alt="yin">
+                </div>
+            </div>
+        </div>   
+    </div>   
+</div>
+
+
+
+<div id="yinyang-accordion1">
+    <div class="ribbon"></div>
+    <div class="row accordion-inner">
+        
+        <div class="card1-title">
+            <div class="up-btn">
+                <div class="up-btn-inner" onclick="closeAccordion4()"><a href="#yinyang">
+                <i class="fa fa-angle-up"></i></a>
+                </div>
+            </div>
+            <h2>“Find Yourself”</h2>
+        </div>
+        <div class="card1-description">
+            <p>Some ads promoted cosmetics as a tool for women to explore and portray their individuality in the modern world. 
+                Some content also raised women’s awareness of sexual freedom, although in the disguise of selling products. 
+                <br><br><br></p>
+            <img src="images/card4group1.png" alt="awareness-b">
+            <br><br><br><br><p>Armand's 1929 campaign, "Find Yourself," offered to lead women to self understanding by analyzing their appearance. 
+                It provided a guide to 32 quite disctinct types of women based on facial appearance.
+            <br><br><br></p>
+            <img src="images/card4a.png" alt="awareness-a">
+            <br><br>
+            <p><br><br>Although in disguise of selling products, the beauty culturalists used this campaign to encourage women 
+                to look into their beauty and find their “true self-image”.
+            <br><br></p>
+            <video width="485" height="273" controls autoplay>
+                <source src="videos/Makeover.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p style="color: black;"><i>Full video can be found <u><a style="color: black"; href="https://www.youtube.com/watch?v=BTOq3CS1U20&feature=youtu.be&t=1271">here</a></u>.</i></p>
+            <br><br>
+            <p><br>
+                <br>
+                <br>Most of ads proclaimed the mutual transformation of external appearance and inner well-being. 
+                “Before-and after” imagery appeared in ads conveying that women could not only change her looks 
+                but remake her life.
+            <br><br></p>
+            <img src="images/card4b.png" alt="awareness-c">
+            <br><br>
+            <p><br>
+                <br><br>ln a 1924 trade advertisement for Zip depilatory: A dark-skinned woman, with the appearance
+                 of an eastern or southern European immigrant, achieved social acceptance in America by ridding 
+                 herself of superfluous hair.
+            <br><br></p>
+            <img src="images/card4c.png" alt="awareness-d">
+            <br><br><br><br><br><br><br><br><br><br>
+        </div>
+
+        <div class="card1-title2">
+            <h2>“Fire & Ice”</h2>
+        </div>
+        <div class="card1-description">
+            <p>Fire and Ice, a Revlon lipstick color introduced in 1952 -- “for you who love to flirt with fire, 
+                who dare to skate upon thin ice”-- changed the sexual resonance of cosmetics advertising. 
+                <br><br></p>
+                <img src="images/card4e.png" alt="awareness-f">
+            <p><br><br><br>Accompanying with the photograph of a beautiful model with a sequined gown, it had a questionnaire 
+                for customers to see if they were “ready for Fire and Ice.”
+                <br><br></p>
+            <img src="images/card4f.png" alt="awareness-f">
+            <br><br><br><br><p>It asked some questions about traditional heterosexual romance but also quizzed women on their desire fir sensuous pleasure, and their advertuousness.
+                <br><br>“Do you dance with your shoes off?”
+                <br><br>“If tourist flights were running would you take a trip to Mars?”
+            <br><br><br></p>
+            <p>There was no heterosexual encounter, no romance scene, just a self-aborbed woman. To some degree, 
+                it encouraged women’s sexual freedom and presented cosmetics as a playful activity.
+                <br><br><br></p>
+                <br><br><br><br>
+        </div>
+    </div>  
+</div>
+
+<div id="yinyang-accordion2">
+    <div class="ribbon"></div>
+    <div class="row accordion-inner">
+        
+        <div class="card1-title">
+            <div class="up-btn">
+                <div class="up-btn-inner" onclick="closeAccordion5()"><a href="#yinyang">
+                <i class="fa fa-angle-up"></i></a>
+                </div>
+            </div>
+            <h2>"Ideal Wife"</h2>
+        </div>
+        <div class="card1-description">
+            <p>Many magazine ads in 50s emphasized the effect cosmetics would have on men. 
+                Ads were showing flawless beauty, made consumption integral to achieving the feminine ideal.
+                <br><br><br></p>
+            <img src="images/card5a.png" alt="suppression-a">
+            <br><br><br><br><p>They promoted a perfect wife image who “leads a double life”, who takes care 
+                of kitchen but could still remain attractive for their husbands.
+            <br><br><br></p>
+            <img src="images/card5b.png" alt="suppression-b">
+            <br><br>
+            <p><br><br><br>In postwar period, sexual allure and desire were celebrated as attributes of normal 
+                female psyche. A woman acted upon her desire for a man by making herself beautifu, in order to awaken his desire.
+                <br><br>The sexist content and image aimed to entice women customers and raise their insecurities, 
+                which added to another layer of psychological interpretation of cosmetics.
+            <br><br></p>
+            <img src="images/card5group1.png" alt="suppression-c">
+            <br><br><br><br><br><br><br><br><br><br>
+        </div>
+
+        <div class="card1-title2">
+            <h2>The Single 
+                <br>Representation of 
+                <br>Race</h2>
+        </div>
+        <div class="card1-description">
+            <p>Most mid-century ads not only trapped in male gaze, but also failed to represent women of different 
+                ethnic backgrounds. The single representation of ideal beauty, including the hair look, the cosmetic 
+                style, the skin color tone, etc. was white washed.
+                <br><br></p>
+                <img src="images/card5group2.png" alt="suppression-d">
+            <p><br><br><br>The limited representation of diverse female beauty confined women’s aesthetic choices. 
+                This resulted in mounting discontent among African Americans, feminists, and gay activists who 
+                challenged the commercial exploitation of the governing beauty ideals afterwards.
+                <br><br></p>
+                <img src="images/card5group3.png" alt="suppression-e">
+            <br><br><br>
+                <br><br><br><br>
+        </div>
+    </div>  
+</div>
+<!--- End of Yin Yang -->
+
+<!--- Start of Argument Two -->
+<div id="argu2" class="offset">
+        <div class="argu2-inner">
+            <div class="argu1description text-md-center">
+                    <h1>Awareness and Identity</h1>
+                    <hr size="1" width="30%" color="white">  
+                    <p class="lead">With a rich history, cosmetics became more than 
+                        <br>a beautifying tool. It functioned as a symbol of 
+                        <br>solidarity for women suffragettes, a political tool 
+                        <br>for African Americans to address their
+                        <br>appreance, a medium for drag queens to shape 
+                        <br>subculture and challeng gender roles. </p>
+            </div>
+        </div>
+    </div>   
+</div>
+<!--- End of Argument Two -->
+
+<!--- Start of Dressing Table -->
+<div id="dressingtable" class="offset">
+    <div class="dressingtable-inner">   
+        <div class="gameinstruction">
+            <h4>PICK ONE ITEM TO KNOW MORE ABOUT ITS HISTORY</h4>
+            <hr size="1" width="50%" color="black">  
+        </div>
+        <div class="cosmeticpackage">
+            <img class="cosmetics1" src="images/cosmetics1.png" alt="hairdryer">
+            <a href="#cosmetics-accordion1"><img class="cosmetics2" onclick="myFunction6()" src="images/cosmetics2.png" alt="redlipstick"></a> 
+            <img class="cosmetics3" src="images/cosmetics3.png" alt="compact">
+            <img class="cosmetics4" onclick="myFunction7()" src="images/cosmetics4.png" alt="hairgrower">
+            <img class="cosmetics5" src="images/cosmetics5.png" alt="nailoil">
+            <img class="cosmetics6" onclick="myFunction8()" src="images/cosmetics6.png" alt="mascara">
+            <img class="cosmetics7" onclick="myFunction8()" src="images/cosmetics7.png" alt="eyeshadow">
+        </div>
+    </div>    
+</div>
+
+
+<div id="cosmetics-accordion1">
+    <div class="row accordion-inner">
+        
+        <div class="card1-title">
+            <div class="up-btn">
+                <div class="up-btn-inner" onclick="closeAccordion6()"><a href="#dressingtable">
+                <i class="fa fa-angle-up"></i></a>
+                </div>
+            </div>
+            <img class="redlipstick" src="images/redlipstick.png" alt="redlipstick-a">
+        </div>
+        <div class="card1-description">
+            <h1>Red Lipsticks
+                <br>as a Sign of Solidarity
+                <hr size="1" width="100%" color="black"> 
+            </h1>
+            <p><br>
+               Due to the endorsement of leading suffragettes, lipstick more specifically symbolized female emancipation.
+                <br><br>Leaders such as Elizabeth Cady Stanton and Charlotte Perkins Gilman trumpeted the wearing of lip rouge as 
+                an emblem of women’s emancipation, and incorporated its use into the 1912 New York Suffragette Rally. Thereafter, 
+                suffragettes wore a particularly noticeable shade of red lip rouge as part of standard rally procedure.  
+            <br><br></p>
+            <img src="images/card6group1.png" alt="suffragette-a">
+            <p><br>
+                <br>
+                <br>In both America and England, women publicly applied lip rouge with the express intent of appalling men. 
+                Lipstick’s long proscription by social, religious, and legal male authority made it a ready symbol for female rebellion.  
+            <br><br></p>
+
+        </div>
+    </div>
+</div>
+
+<div id="cosmetics-accordion2">
+    <div class="row accordion-inner">
+        
+        <div class="card1-title">
+            <div class="up-btn">
+                <div class="up-btn-inner" onclick="closeAccordion7()"><a href="#dressingtable">
+                <i class="fa fa-angle-up"></i></a>
+                </div>
+            </div>
+            <img class="hairgrower" src="images/hairgrower.png" alt="hairgrower-a">
+        </div>
+        <div class="card1-description">
+            <h1>Beauty Empire
+                <br>for Black Women
+                <hr size="1" width="100%" color="black"> 
+            </h1>
+            <p><br>
+                Madam C. J. Walker (1867-1919) was “the first black woman millionaire in America” and made her fortune 
+                thanks to her homemade line of hair care products for black women. Born Sarah Breedlove to parents who 
+                had been slaves, she was inspired to create her hair products after an experience with hair loss, which 
+                led to the creation of the “Walker system” of hair care.  
+            <br><br></p>
+            <img src="images/card7group1.png" alt="madamecj-a">
+            <p><br>
+                <br>
+                <br>A talented entrepreneur with a knack for self-promotion, Walker built a business empire, at first 
+                selling products directly to black women, then employing “beauty culturalists” to hand-sell her wares. 
+                The self-made millionaire used her fortune to fund scholarships for women at the Tuskegee Institute and donated 
+                large parts of her wealth to the NAACP, the black YMCA and other charities.<br><br></p>
+            <img src="images/Madam-CJ-Walker-Self-Made.jpg" alt="madamecj-a">
+            <p><br>
+                <br>
+                <br>Both Madam C. J. Walker and Annie Tumbo Malone refused to sell skin bleach and emphasized hair care, 
+                not straightening, in their beauty systems. Building their beauty empire, they created thousands of job 
+                opportunities for black women and continuously gave back to the community<br><br></p>
+        </div>
+    </div>
+</div>
+
+<div id="cosmetics-accordion3">
+    <div class="row accordion-inner">
+        
+        <div class="card1-title">
+            <div class="up-btn">
+                <div class="up-btn-inner" onclick="closeAccordion8()"><a href="#dressingtable">
+                <i class="fa fa-angle-up"></i></a>
+                </div>
+            </div>
+            <img class="dragmakeover" src="images/makeover.png" alt="makeover-a">
+        </div>
+        <div class="card1-description">
+            <h1>Drag Makeup
+                <br>to Disrupt Gender Norms
+                <hr size="1" width="100%" color="black"> 
+            </h1>
+            <p><br>
+                Drag is a gender-bending art form in which a person dresses in clothing and makeup meant to exaggerate a 
+                specific gender identity, usually of the opposite sex.
+                 <br><br>Drag has deep roots in Western culture, specifically in theatre when women weren’t permitted to 
+                 perform on stage so men would play female roles. Drag performers were featured as far back as ancient Greece and carried on through Shakespearean times.  
+             <br><br></p>
+            <img src="images/card6group1.png" alt="suffragette-a">
+            <p><br>
+                <br>
+                <br>Cross-dressing and drag performances existed as an underground culture for much of the 20th century, 
+                and the visibility of drag queens increased alongside that of LGBT communities in the late 1960s.   
+            <br><br>The Harlem Renaissance (1920-1935) was particularly influential to this process. Through dance, drag queens showed how gender is a performance – 
+            they pretended to put on makeup or “beat face”, style their hair, and put on extravagant clothes. <br><br></p>
+            <img src="images/card6group1.png" alt="suffragette-a">
+            <p><br>
+                <br>
+                <br>In Cristy’s (2017) interviews with drag queens to understand their gender performance, the participants mentioned they attained social and political 
+                visibility through drag, as drag helped them reach a larger audience when attempting to express social and 
+                political issues and norms. One mentioned that “drag is a political tool”.   
+            <br><br></p>
+            <img src="images/card6group1.png" alt="suffragette-a">
+            <p><br>The action of painting and applying makeup has been a critical way for drag performers to shape their subculture, and with that, challenge geneder roles. 
+            Being queer disrupts heteronormative expectations, and drag is an extension of this disruption.   
+        <br><br></p>
+        </div>
+    </div>
+</div>
+<!--- End of Dressing Table -->
+
+<!--- Start of About -->
+<div id="about">
+    <div class="about-inner">
+        <h1>About the project</h1>
+        <div class="acknowledgement">
+        <h7><br><br>DESIGN & DEVELOPMENT</h7>
+        <p>Huan Deng</p>
+
+        <h7><br>ADVISOR</h7>
+        <p>Nassim Parvin</p>
+
+        <h7> <br> COMMITTEE MEMBERS</h7>
+        <p>Carol Colatrella, Anne Sullivan</p>
+
+        <h7> <br> INSPIRED BY</h7>
+        <p>Kathy Peiss's Book <i>Hope in a Jar</i></p>
+
+        <h7> <br> WITH SPECIAL THANKS TO</h7>
+        <p>to be added</p>
+
+        <h7> <br> SOURCES</h7>
+
+        </div>
+        <p>Georgia Tech Library, The Makeup Museum in New York, Encyclopedia Britannica, Youtube, Netflix, 
+            The Metropolitan Museum of Art, Madam C.J. Walker's Beauty Shoppe Museum</p>
+        <p> <br><br> This is a capstone project for Huan's master study in Digital Media at Georgia Tech.
+            By bringing back the rich history of the cosmetics in the early 20th century, it hopes to uncover the power of cosmetics as a political tool to undermine the mainstream values.
+            </p>
+    </div>
+</div>
+<!--- End of About -->
+
+<!--- Script Source Files -->
+<script src="script.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!--- End of Source Files-->
+
+</body>
+</html>
